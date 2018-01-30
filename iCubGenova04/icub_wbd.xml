@@ -41,7 +41,7 @@
 
     <!-- INERTIAL SENSOR-->
     <devices file="hardware/inertials/head-inertial.xml" />
-    <devices file="hardware/inertials/waist-inertial.xml" /> 
+    <devices file="hardware/inertials/waist-inertial.xml" />
 
     <!-- ANALOG SENSOR MAIS -->
     <devices file="wrappers/MAIS/left_arm-mais_wrapper.xml" />
@@ -60,6 +60,22 @@
     <devices file="hardware/skin/right_leg-eb11-skin.xml" />
     <devices file="wrappers/skin/torso-skin_wrapper.xml" />
     <devices file="hardware/skin/torso-eb22-skin.xml" />
+
+    <!-- INERTIAL SENSORS ON MTB -->
+    <devices file="wrappers/inertials/left_arm-inertials_wrapper.xml" />
+    <devices file="hardware/inertials/left_arm-eb24-j4_7-inertials.xml" />
+    <devices file="wrappers/inertials/right_arm-inertials_wrapper.xml" />
+    <devices file="hardware/inertials/right_arm-eb27-j4_7-inertials.xml" />
+
+    <devices file="wrappers/inertials/left_leg-inertials_wrapper.xml" />
+    <devices file="hardware/inertials/left_leg-eb10-inertials.xml" />
+    <devices file="wrappers/inertials/right_leg-inertials_wrapper.xml" />
+    <devices file="hardware/inertials/right_leg-eb11-inertials.xml" />
+
+    <devices file="wrappers/inertials/torso-inertials_wrapper.xml" />
+    <devices file="hardware/inertials/torso-eb22-inertials.xml" />
+    <devices file="hardware/inertials/torso-eb5-inertials.xml" />
+
 
     <!-- ANALOG SENSOR FT -->
     <devices file="wrappers/FT/left_arm-FT_wrapper.xml" />
